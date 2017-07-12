@@ -9,18 +9,15 @@ function setup() {
 	y = height - 100;
 	slider = createSlider(0,PI,PI/4,0.001);
 
-	 background(255);
-     translate(x,y);
- 	 stroke(100);
- 	 // angle += 0.002;
-	 branch(100,4);
-
-
 }
 
 function draw() {
 
-	 angle = slider.value();
+	angle = slider.value();
+	background(255);
+	translate(x,y);
+	stroke(100);
+	branch(100,4);
 
 }
 
@@ -34,12 +31,12 @@ function branch(len,weight){
 	translate(0,-len);
 	if(len>1){
 		push();
-		rotate(angle+random(-angle/3,angle/3));
+		rotate(angle);
 		branch(len*0.618,weight*0.8);
 		pop();
 		push();
-		rotate(-angle+random(-angle/3,angle/3));
+		rotate(-angle);
 		branch(len*0.618,weight*0.8);
 		pop();
-	}  
+	}
 }
