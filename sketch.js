@@ -1,28 +1,42 @@
 var x,y;
 var angle;
+var rAngle
 var silder;
+var canvas;
+var h1;
+var button;
+var isRandom = false
+
 function setup() {
-	createCanvas(1000,600);
-	// angle = PI/4;
-	angle = PI/6;
+  h1 = createElement("h1","Fractal Tree");
+	canvas = createCanvas(1000,600);
+	slider = createSlider(0,PI,PI/4,0.001);
+	button = createButton("Random");
+	button.mousePressed(randomAngle);
+
 	x = width/2;
 	y = height - 100;
-	slider = createSlider(0,PI,PI/4,0.001);
+  
+  // slider.position(0,0);
+  // canvas.position(0,100);
 
 }
 
 function draw() {
-
-	angle = slider.value();
-	background(255);
+  if (isRandom) {
+      angle = rAngle;
+  }else{
+    	angle = slider.value();
+  }
+  	background(250);
 	translate(x,y);
 	stroke(100);
 	branch(100,4);
-
 }
 
-function mouseReleased(){
-    angle = 0;
+function randomAngle(){
+  isRandom = !isRandom;
+  rAngle = random(PI/8,PI/4);
 }
 
 function branch(len,weight){
