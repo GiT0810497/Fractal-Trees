@@ -1,0 +1,259 @@
+{
+  "version" : 2,
+  "root" : {
+    "id" : "yFha_R_t",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "kJ=+~>rB",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "yFha_R_t",
+        "width" : 375,
+        "y" : 0,
+        "deviceType" : "apple-iphone-7-black",
+        "type" : "apple-iphone-7-black",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "children" : [
+          {
+            "radiusBottomLeft" : 0,
+            "rotation" : 0,
+            "__class" : "RectangleNode",
+            "id" : "'a30eEeV",
+            "fillColor" : "rgb(0, 0, 0)",
+            "aspectRatioLocked" : false,
+            "widthFactor" : null,
+            "opacity" : 1,
+            "clip" : false,
+            "borderColor" : "#222",
+            "left" : 0,
+            "locked" : false,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "radius" : 0,
+            "boxShadows" : [
+              {
+                "x" : 0,
+                "color" : "rgba(0,0,0,0.25)",
+                "enabled" : false,
+                "y" : 2,
+                "__class" : "BoxShadow",
+                "inset" : false,
+                "blur" : 5
+              }
+            ],
+            "centerAnchorX" : 0.5,
+            "borderPerSide" : false,
+            "fillType" : "color",
+            "radiusBottomRight" : 0,
+            "children" : [
+              {
+                "__class" : "OvalNode",
+                "fillType" : "color",
+                "locked" : false,
+                "centerAnchorX" : 0.8666666666666667,
+                "parentid" : "'a30eEeV",
+                "rotation" : 0,
+                "fillEnabled" : true,
+                "top" : null,
+                "borderWidth" : 1,
+                "right" : 20,
+                "borderEnabled" : false,
+                "children" : [
+
+                ],
+                "name" : "button",
+                "aspectRatioLocked" : true,
+                "id" : "@wyZIv~Z",
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "constraintsLocked" : false,
+                "left" : null,
+                "bottom" : 29,
+                "height" : 60,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "width" : 60,
+                "widthFactor" : null,
+                "targetName" : "button",
+                "heightFactor" : null,
+                "fillColor" : "rgb(238, 68, 68)",
+                "borderColor" : "#222",
+                "centerAnchorY" : 0.9115442278860569,
+                "opacity" : 1,
+                "visible" : true,
+                "clip" : false
+              },
+              {
+                "__class" : "OvalNode",
+                "fillType" : "color",
+                "locked" : false,
+                "centerAnchorX" : 0.8666666666666667,
+                "parentid" : "'a30eEeV",
+                "rotation" : 0,
+                "fillEnabled" : true,
+                "top" : null,
+                "borderWidth" : 1,
+                "right" : 25,
+                "borderEnabled" : false,
+                "children" : [
+
+                ],
+                "name" : "button2",
+                "aspectRatioLocked" : true,
+                "id" : "0jS3bQ9U",
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "constraintsLocked" : false,
+                "left" : null,
+                "bottom" : 34,
+                "height" : 50,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "width" : 50,
+                "widthFactor" : null,
+                "targetName" : "button2",
+                "heightFactor" : null,
+                "fillColor" : "rgb(238, 68, 68)",
+                "borderColor" : "#222",
+                "centerAnchorY" : 0.9115442278860569,
+                "opacity" : 1,
+                "visible" : true,
+                "clip" : false
+              },
+              {
+                "radiusBottomLeft" : 0,
+                "rotation" : 0,
+                "__class" : "RectangleNode",
+                "id" : "tKCeIytS",
+                "fillColor" : "rgb(238, 68, 68)",
+                "aspectRatioLocked" : false,
+                "widthFactor" : null,
+                "opacity" : 1,
+                "clip" : false,
+                "borderColor" : "#222",
+                "left" : null,
+                "locked" : false,
+                "fillGradient" : {
+                  "end" : "rgba(0,0,0,0)",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "__class" : "LinearGradient",
+                  "start" : "black"
+                },
+                "radius" : 0,
+                "boxShadows" : [
+                  {
+                    "x" : 0,
+                    "color" : "rgba(0,0,0,0.25)",
+                    "enabled" : false,
+                    "y" : 2,
+                    "__class" : "BoxShadow",
+                    "inset" : false,
+                    "blur" : 5
+                  }
+                ],
+                "centerAnchorX" : 0.5586666666666666,
+                "borderPerSide" : false,
+                "fillType" : "color",
+                "radiusBottomRight" : 0,
+                "children" : [
+
+                ],
+                "fillEnabled" : true,
+                "parentid" : "'a30eEeV",
+                "borderRight" : 1,
+                "name" : "rect",
+                "height" : 100,
+                "borderWidth" : 1,
+                "top" : 118,
+                "borderTop" : 1,
+                "radiusTopRight" : 0,
+                "borderBottom" : 1,
+                "borderEnabled" : false,
+                "constraintsLocked" : false,
+                "right" : 98,
+                "radiusPerCorner" : false,
+                "centerAnchorY" : 0.2773613193403298,
+                "visible" : true,
+                "borderLeft" : 1,
+                "heightFactor" : null,
+                "radiusTopLeft" : 0,
+                "targetName" : "rect",
+                "bottom" : null,
+                "width" : 100
+              }
+            ],
+            "fillEnabled" : true,
+            "parentid" : "kJ=+~>rB",
+            "borderRight" : 1,
+            "name" : "container",
+            "height" : 667,
+            "borderWidth" : 1,
+            "top" : 0,
+            "borderTop" : 1,
+            "radiusTopRight" : 0,
+            "borderBottom" : 1,
+            "borderEnabled" : false,
+            "constraintsLocked" : false,
+            "right" : 0,
+            "radiusPerCorner" : false,
+            "centerAnchorY" : 0.5,
+            "visible" : true,
+            "borderLeft" : 1,
+            "heightFactor" : null,
+            "radiusTopLeft" : 0,
+            "targetName" : "container",
+            "bottom" : 0,
+            "width" : 375
+          }
+        ],
+        "height" : 667,
+        "fillType" : "color",
+        "targetName" : null,
+        "fillColor" : "#ffffff",
+        "name" : null
+      }
+    ]
+  }
+}
